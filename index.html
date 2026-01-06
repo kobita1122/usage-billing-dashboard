@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Usage & Billing Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Usage & Billing Dashboard</h1>
+
+<div class="cards">
+  <div class="card">
+    <h3>API Requests</h3>
+    <p id="requests">0</p>
+  </div>
+  <div class="card">
+    <h3>Storage Used</h3>
+    <p id="storage">0 GB</p>
+  </div>
+  <div class="card">
+    <h3>Estimated Bill</h3>
+    <p>$<span id="bill">0</span></p>
+  </div>
+</div>
+
+<button onclick="generate()">Generate Usage</button>
+
+<script src="script.js"></script>
+</body>
+</html>
